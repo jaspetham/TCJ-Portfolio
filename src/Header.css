@@ -1,0 +1,29 @@
+.navbar {
+  background-color: black !important;
+  padding: 15px 10px;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar .nav-menu .nav-link {
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+.navbar .nav-menu .nav-link:hover {
+  color: green;
+}
+
+.navbar .nav-menu .list-group-item {
+  padding: 0 0.8rem;
+  background: none;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: red !important;
+}
