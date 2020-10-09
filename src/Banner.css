@@ -58,13 +58,34 @@
 }
 
 .banner-content .custom-btn {
-  color: #20c997;
-  border-color: #20c997;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
   border-width: 2px;
-  border-radius: 20px !important;
+  border-radius: 30px !important;
 }
 
 .banner-content .custom-btn:hover {
-  background-color: #20c997;
+  background-color: var(--primary-color);
   color: white;
+}
+
+.banner-content .type-animation {
+  display: inline-block;
+}
+
+@media (max-width: 720px) {
+  .banner-content .title {
+    font-size: 28px;
+  }
+
+  .banner-content .name {
+    font-size: 30px;
+  }
+
+  .banner-content .location {
+    font-size: 21px;
+  }
+  .banner-content .btn {
+    padding: 12px 32px;
+  }
 }
