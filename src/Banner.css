@@ -1,0 +1,70 @@
+.banner-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-mask {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #111418;
+  opacity: 0.8;
+}
+
+.banner-bg {
+  background-image: url("http://demo.harnishdesign.net/html/simone/images/intro-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  background-position: center 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  padding: 4.5rem 0;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.banner-content .title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.banner-content .name {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.banner-content .location {
+  font-size: 21px;
+  line-height: 1.8;
+}
+
+.banner-content .btn {
+  padding: 12px 42px;
+}
+
+.banner-content .custom-btn {
+  color: #20c997;
+  border-color: #20c997;
+  border-width: 2px;
+  border-radius: 20px !important;
+}
+
+.banner-content .custom-btn:hover {
+  background-color: #20c997;
+  color: white;
+}
