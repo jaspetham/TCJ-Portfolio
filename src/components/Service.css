@@ -1,5 +1,5 @@
 #service {
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 }
 .box {
   padding-left: 90px;

@@ -9,7 +9,7 @@ function About() {
             <Container>
                 <Title background="About Me" title="Know Me More" />
                 <Row>
-                    <Col lg="8" className="text-center text-lg-left">
+                    <Col lg="8" className="text-center text-lg-left my-auto">
                         <h2 className="about-title mb-3">I'm <span className="highlight">Tan Chang Jen,</span> a Game Developer</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis maxime doloremque animi quibusdam adipisci voluptates assumenda id repellendus qui. Quisquam nisi culpa, impedit error eligendi dolore officiis? Rem, deserunt?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore voluptate reprehenderit corporis atque adipisci, molestiae eius, similique non ipsa excepturi ducimus dolores numquam, autem quis a repudiandae cumque quo!</p>
@@ -30,7 +30,9 @@ function About() {
                                     <span className="about-list mr-2">From: </span> KK
                                 </li>
                             </ul>
-                            <a href="/#about" target="_blank" className="btn custom-btn">Download CV</a>
+                            <div className="text-center text-md-left">
+                                <a href="/#about" target="_blank" className="btn custom-btn">Download CV</a>
+                            </div>
                         </div>
                     </Col>
                 </Row>

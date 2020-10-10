@@ -35,36 +35,31 @@ function Header() {
               id="navbarSupportedContent"
             >
               <Nav className="nav-menu">
-                <Scrollspy items={ ['home','about','service'] } currentClassName="active" offset={ -50 } className="navbar-nav" >
+                <Scrollspy items={ ['home','about','service','resume','portfolio'] } currentClassName="active" offset={ -150 } className="navbar-nav" >
                     <li className="nav-item">
-                      <Nav.Link href="#home">
+                      <a href="#home" className="nav-link">
                         Home
-                      </Nav.Link>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <Nav.Link href="#about" >
+                      <a href="#about" className="nav-link">
                         About
-                      </Nav.Link>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <Nav.Link href="#service">
+                      <a href="#service" className="nav-link">
                         What I Do
-                      </Nav.Link>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <Nav.Link >
+                      <a href="#resume" className="nav-link">
                         Resume
-                      </Nav.Link>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <Nav.Link >
+                      <a href="#portfolio" className="nav-link">
                         Portfolio
-                      </Nav.Link>
-                    </li>
-                    <li className="nav-item">
-                      <Nav.Link >
-                        Contact
-                      </Nav.Link>
+                      </a>
                     </li>
                   </Scrollspy>
               </Nav>

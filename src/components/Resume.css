@@ -1,0 +1,53 @@
+.summary-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.summary-date {
+  background-color: var(--primary-color);
+  font-weight: 400;
+  font-size: 0.875rem;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  line-height: 1;
+  text-align: center;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.summary-rank {
+  font-size: 1.3125rem;
+}
+
+.summary-location {
+  color: #dc3545 !important;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.skills-text {
+  font-weight: 500;
+}
+
+.progress {
+  height: 8px;
+}
+
+.progress-bar {
+  background-color: var(--primary-color);
+  height: 8px;
+  border-radius: 20px;
+}
+
+.cv-div:hover #icon {
+  color: white !important;
+}
+
+@media (max-width: 720px) {
+  .skills-div {
+    padding: 0;
+  }
+}
