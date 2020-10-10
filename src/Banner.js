@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Typing from "react-typing-animation";
 import "./Banner.css";
+import Typical from 'react-typical'
 
 function Banner() {
   return (
@@ -16,15 +16,14 @@ function Banner() {
                 <p className="title mb-md-3">Welcome</p>
                 <h2 className="name mb-md-">
                   <span>I'm </span>
-                  <Typing speed={100} loop={true} className="type-animation">
-                    Tan Chang Jen
-                    <Typing.Backspace count={20} speed={100} />
-                    a Game Developer
-                    <Typing.Backspace count={20} speed={100} />
-                  </Typing>
+                  <Typical
+                    className="type-animation"
+                   steps={['Tan Chang Jen', 1000, 'a Game Developer', 500]}
+                   loop={Infinity}
+                   wrapper="p"/>
                 </h2>
                 <p className="location mb-md-">Based in KK</p>
-                <a href="#" className="btn custom-btn rounded mt-2">
+                <a href="#" className="btn custom-btn mt-2">
                   Hire me
                 </a>
               </Col>

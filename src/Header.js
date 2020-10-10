@@ -1,10 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import { Container, Nav, Navbar, Image, Row, Col } from "react-bootstrap";
 import "./Header.css";
+import Scrollspy from 'react-scrollspy'
 
 function Header() {
+  const [navbar,setNavbar]= useState(false);
+  const changeBackground = ()=>{
+    if(window.scrollY >= 80){
+      setNavbar(true);
+    }else{
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className={navbar? 'navbar changeBackground' : 'navbar'}>
       <Container fluid className="position-relative">
         <Row className="w-100">
           <Col className="col-10 col-md-3">
@@ -24,26 +35,38 @@ function Header() {
               id="navbarSupportedContent"
             >
               <Nav className="nav-menu">
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link href="#about">About</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link href="#">What I do</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link href="#">Resume</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link href="#">Portfolio</Nav.Link>
-                  </li>
-                  <li className="nav-item">
-                    <Nav.Link href="#">Contact</Nav.Link>
-                  </li>
-                </ul>
+                <Scrollspy items={ ['home','about','service'] } currentClassName="active" offset={ -50 } className="navbar-nav" >
+                    <li className="nav-item">
+                      <Nav.Link href="#home">
+                        Home
+                      </Nav.Link>
+                    </li>
+                    <li className="nav-item">
+                      <Nav.Link href="#about" >
+                        About
+                      </Nav.Link>
+                    </li>
+                    <li className="nav-item">
+                      <Nav.Link href="#service">
+                        What I Do
+                      </Nav.Link>
+                    </li>
+                    <li className="nav-item">
+                      <Nav.Link >
+                        Resume
+                      </Nav.Link>
+                    </li>
+                    <li className="nav-item">
+                      <Nav.Link >
+                        Portfolio
+                      </Nav.Link>
+                    </li>
+                    <li className="nav-item">
+                      <Nav.Link >
+                        Contact
+                      </Nav.Link>
+                    </li>
+                  </Scrollspy>
               </Nav>
             </Navbar.Collapse>
           </Col>

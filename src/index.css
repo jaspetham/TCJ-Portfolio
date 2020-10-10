@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("./_variables.css");
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -8,7 +11,68 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container-div {
+  padding: 4.5rem 0;
+  position: relative;
+  overflow: hidden;
 }
+
+/* for every section title text and background text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+.text-light,
+.title-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.background-text {
+  color: #dee3e4 !important;
+  font-weight: 600;
+  opacity: 0.4;
+  font-size: 8.25rem;
+  line-height: 1.3;
+}
+
+.title-text {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+.underline {
+  border-bottom: 3px solid var(--primary-color);
+  width: 80px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: var(--primary-color) !important;
+}
+/* for every section title text and background text end */
+
+/* custom btn */
+.btn {
+  padding: 12px 42px !important;
+}
+.custom-btn {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  border-width: 2px !important;
+  border-radius: 30px !important;
+}
+
+.custom-btn:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+/* custom btn end  */
