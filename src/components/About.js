@@ -14,7 +14,7 @@ function About() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis maxime doloremque animi quibusdam adipisci voluptates assumenda id repellendus qui. Quisquam nisi culpa, impedit error eligendi dolore officiis? Rem, deserunt?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore voluptate reprehenderit corporis atque adipisci, molestiae eius, similique non ipsa excepturi ducimus dolores numquam, autem quis a repudiandae cumque quo!</p>
                     </Col>
-                    <Col lg="4">
+                    <Col lg="4" className="mt-5 mt-lg-0">
                         <div className="pl-4">
                             <ul>
                                 <li>

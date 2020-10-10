@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Header";
-import Banner from "./Banner";
-import About from "./About";
-import Service from "./Service";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import About from "./components/About";
+import Service from "./components/Service";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Banner />
         <About/>
         <Service/>
+        <Resume/>
       </div>
     </div>
   );

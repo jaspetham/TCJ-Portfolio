@@ -1,0 +1,9 @@
+@media (max-width: 720px) {
+  .background-text {
+    font-size: calc(1.95rem + 8.4vw);
+  }
+
+  .title-text {
+    font-size: 2.25rem;
+  }
+}

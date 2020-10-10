@@ -12,6 +12,12 @@ body {
 }
 
 .container-div {
+  padding-bottom: 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper-div {
   padding: 4.5rem 0;
   position: relative;
   overflow: hidden;
