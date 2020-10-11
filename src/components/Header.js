@@ -15,7 +15,7 @@ function Header() {
 
   window.addEventListener('scroll', changeBackground)
   return (
-    <Navbar bg="light" expand="lg" className={navbar? 'navbar changeBackground' : 'navbar'}>
+    <Navbar id="navbar" bg="light" expand="lg" className={navbar? 'navbar changeBackground' : 'navbar'}>
       <Container fluid className="position-relative">
         <Row className="w-100">
           <Col className="col-10 col-md-3">

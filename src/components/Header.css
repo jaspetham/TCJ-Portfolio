@@ -1,8 +1,8 @@
 .navbar {
   background-color: transparent !important;
   padding: 17px 20px;
-  z-index: 999;
   position: sticky;
+  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
