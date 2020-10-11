@@ -1,0 +1,18 @@
+footer {
+  background: black;
+  color: black;
+  padding: 2.125rem 0;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-text a {
+  color: var(--primary-color);
+}
+
+.footer-text a:hover {
+  text-decoration: none;
+  color: #1baa80;
+}

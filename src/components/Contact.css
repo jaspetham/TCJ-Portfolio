@@ -1,0 +1,49 @@
+.contact-title {
+  font-size: 1.3125rem;
+}
+
+.contact-text {
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  padding: 0.8rem 2.6rem !important;
+}
+
+.submit-btn:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  background-color: #1baa80 !important;
+  border-color: #1baa80 !important;
+}
+
+#contact ul li {
+  margin: 0px 6px 4px;
+  padding: 0;
+  overflow: visible;
+  float: left;
+}
+
+.social-icons a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  width: 26px;
+  font-size: 18px;
+  text-align: center;
+  color: #4d555a !important;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: var(--primary-color) !important;
+}
+@media (max-width: 720px) {
+  .form-column {
+    padding: 0;
+  }
+}

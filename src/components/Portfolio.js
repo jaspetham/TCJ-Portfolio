@@ -37,7 +37,7 @@ function Portfolio() {
                             title="your tho" 
                             infoText="Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure."  
                             url="www.example.com" 
-                            src="http://demo.harnishdesign.net/html/simone/images/projects/project-1.jpg" 
+                            src="http://demo.harnishdesign.net/html/simone/images/projects/project-5.jpg" 
                             alt="big pp"
                         />  
                     </div>
@@ -45,7 +45,28 @@ function Portfolio() {
                 </Container>
                 </Tab>
                 <Tab eventKey="design" title="Design">
-                    
+                <Container>
+                <div className="card-columns">
+                    <div className="card">
+                        <ImageDemo 
+                            title="your tho" 
+                            infoText="Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure." 
+                            url="www.example.com" 
+                            src="http://demo.harnishdesign.net/html/simone/images/projects/project-1.jpg" 
+                            alt="big pp"
+                        />  
+                    </div>
+                    <div className="card">
+                        <ImageDemo 
+                            title="your tho" 
+                            infoText="Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure."  
+                            url="www.example.com" 
+                            src="http://demo.harnishdesign.net/html/simone/images/projects/project-3.jpg" 
+                            alt="big pp"
+                        />  
+                    </div>
+                </div>
+                </Container>
                 </Tab>
                 <Tab eventKey="photo" title="Photo">
                     <p>photo</p>
