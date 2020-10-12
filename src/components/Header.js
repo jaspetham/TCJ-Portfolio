@@ -20,7 +20,8 @@ function Header() {
         <Row className="w-100">
           <Col className="col-10 col-md-3">
             <Navbar.Brand href="#home">
-              <Image src="http://demo.harnishdesign.net/html/simone/images/logo-light.png" />
+              {/* <Image src="http://demo.harnishdesign.net/html/simone/images/logo-light.png" /> */}
+              Big Daddy
             </Navbar.Brand>
           </Col>
 

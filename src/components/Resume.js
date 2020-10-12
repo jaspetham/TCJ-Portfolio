@@ -73,21 +73,21 @@ function Resume() {
                 <h2 className="my-4 skills-title">My Skills</h2>
                 <Row>
                     <Col md="6" className="skills-div">
-                        <p className="skills-text text-left mb-2 text-dark">Web Design
+                        <p className="skills-text text-left mb-2 text-dark">Game Design
                             <span className="float-right">
                                 65%
                             </span>
                         </p>
                         <ProgressBar now={65} className="mb-4"/>
 
-                        <p className="skills-text text-left mb-2 text-dark">Game Design
+                        <p className="skills-text text-left mb-2 text-dark">C#
                             <span className="float-right">
                                 70%
                             </span>
                         </p>
                         <ProgressBar now={70} className="mb-4"/>
 
-                        <p className="skills-text text-left mb-2 text-dark">Swag Design
+                        <p className="skills-text text-left mb-2 text-dark">Unity Engine
                             <span className="float-right">
                                 100%
                             </span>
@@ -95,21 +95,21 @@ function Resume() {
                         <ProgressBar now={100} className="mb-4"/>
                     </Col>
                     <Col md="6" className="skills-div">
-                        <p className="skills-text text-left mb-2 text-dark">Web Design
+                        <p className="skills-text text-left mb-2 text-dark">Python
                             <span className="float-right">
                                 65%
                             </span>
                         </p>
                         <ProgressBar now={65} className="mb-4"/>
 
-                        <p className="skills-text text-left mb-2 text-dark">Game Design
+                        <p className="skills-text text-left mb-2 text-dark">Illustration
                             <span className="float-right">
                                 70%
                             </span>
                         </p>
                         <ProgressBar now={70} className="mb-4"/>
 
-                        <p className="skills-text text-left mb-2 text-dark">Swag Design
+                        <p className="skills-text text-left mb-2 text-dark">Sprite Design
                             <span className="float-right">
                                 100%
                             </span>
@@ -120,9 +120,9 @@ function Resume() {
 
                 <div className="text-center mt-5 cv-div">
                     <a href="#" className="btn custom-btn">Download CV
-                    <span className="float-right ml-2">
+                    {/* <span className="float-right ml-2">
                         <FontAwesomeIcon icon={faDownload} id="icon"/>
-                    </span>
+                    </span> */}
                     </a>
                 </div>
             </Container>
